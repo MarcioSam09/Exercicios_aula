@@ -1,0 +1,92 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.quadrado1{
+    width: 200px;
+    height: 200px;
+    background-color: #d7308c;
+    margin: 10px;
+    justify-content: center;
+    position: absolute;
+    right: 1317px;
+    top: 5%;
+}
+
+.quadrado2{
+    width: 500px;
+    height: 200px;
+    background-color: #d61919;
+    margin: 10px;
+    position: absolute;
+    right: 800px;
+    top: 5%;
+}
+
+.quadrado3{
+    width: 100px;
+    height: 200px;
+    background-color: #19d69d;
+    margin: 10px;
+    position: absolute;
+    right: 675px;
+    top: 5%;
+}
+
+.quadrado4{
+    width: 100px;
+    height: 500px;
+    background-color: #332795;
+    margin: 10px;
+    position: absolute;
+    right: 550px;
+    top: 5%;
+}
+
+.quadrado5{
+    width: 200px;
+    height: 500px;
+    background-color: #1e55ae;
+    margin: 10px;
+    position: absolute;
+    right: 325px;
+    top: 5%;
+}
+
+.quadrado6{
+    width: 50px;
+    height: 500px;
+    background-color: #35517d;
+    margin: 10px;
+    position: absolute;
+    right: 250px;
+    top: 5%;
+}
+
+.quadrado7{
+    width: 200px;
+    height: 300px;
+    background-color: #8e8050;
+    margin: 10px;
+    position: absolute;
+    right: 1317px;
+    top: 35%;
+}
+
+.quadrado8{
+    width: 600px;
+    height: 300px;
+    background-color: #6745bc;
+    margin: 10px;
+    position: absolute;
+    right: 700px;
+    top: 35%;
+}

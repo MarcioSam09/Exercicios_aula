@@ -1,0 +1,25 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Estilos para o container flex */
+.container {
+  display: flex; /* Torna o container um flex container */
+  justify-content: space-around; /* Distribui os itens igualmente com espaçamento ao redor */
+  align-items: center; /* Centraliza os itens verticalmente */
+  height: 200px; /* Altura do container */
+  background-color: #ddd;
+  padding: 20px;
+}
+
+/* Estilos para os itens flex dentro do container */
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  font-size: 18px;
+  text-align: center;
+  width: 100px; /* Largura fixa para os itens */
+}

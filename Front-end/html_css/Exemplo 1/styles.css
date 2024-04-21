@@ -1,0 +1,30 @@
+/* Estilizando o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+/* Estilizando o título principal */
+#titulo {
+  color: blue;
+  text-align: center;
+}
+
+/* Estilizando todos os parágrafos */
+p {
+  color: black;
+  font-size: 16px;
+}
+
+/* Estilizando a classe de destaque */
+.destaque {
+  background-color: yellow;
+  padding: 10px;
+}
+
+/* Estilizando a caixa com borda e fundo */
+.box {
+  border: 1px solid #ccc;
+  background-color: white;
+  padding: 10px;
+}

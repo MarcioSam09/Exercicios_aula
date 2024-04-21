@@ -1,0 +1,36 @@
+/* Estilos para o corpo da página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Estilos para as caixas */
+.box {
+  width: 200px;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #3498db;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+/* Efeito hover para trocar a cor de fundo */
+.color-change:hover {
+  background-color: #e74c3c;
+  transition: background-color 1s ease;
+}
+
+/* Efeito hover para arredondar as bordas */
+.border-radius-change:hover {
+  transition: border-radius 1s ease;
+  border-radius: 50%; /* Arredonda as bordas para um círculo */
+}
